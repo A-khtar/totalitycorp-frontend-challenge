@@ -1,6 +1,6 @@
 import Category from "./components/Category";
 import Hero from "./components/Hero";
-import { Navbar } from "./components/Navbar";
+
 import Featureclothes from "./components/featureclothes";
 import Featurediaper from "./components/feauturediaper";
 import MYRoutes from "./components/Routes";
@@ -13,7 +13,7 @@ const App = () => {
   return (
     <Router>
       <main>
-        {/* <Navbar /> */}
+       
         <MYRoutes/>
         <Hero />
         <Category />
